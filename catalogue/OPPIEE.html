@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppierif | Luxury Essentials</title>
+    <style>
+        :root { --brand-yellow: #ffcc00; --brand-black: #000000; --brand-white: #ffffff; }
+        body { font-family: 'Inter', sans-serif; margin: 0; background-color: var(--brand-black); color: var(--brand-white); }
+        header { background-color: var(--brand-yellow); color: var(--brand-black); padding: 4rem 1rem; text-align: center; }
+        .logo { font-size: 3.5rem; font-weight: 900; letter-spacing: -2px; margin: 0; }
+        .nav-cats { display: flex; justify-content: center; gap: 20px; margin-top: 10px; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; }
+        
+        .container { max-width: 1200px; margin: auto; padding: 50px 20px; }
+        .section-title { font-size: 2rem; border-left: 5px solid var(--brand-yellow); padding-left: 15px; margin-bottom: 30px; text-transform: uppercase; }
+        
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 80px; }
+        .card { background: #111; border: 1px solid #222; overflow: hidden; transition: 0.3s; }
+        .card:hover { border-color: var(--brand-yellow); }
+        
+        /* Image Placeholder Styling */
+        .product-img { width: 100%; height: 500px; object-fit: contain; background-color: #111; display: block; }
+        
+        .card-info { padding: 25px; }
+        .card h3 { margin: 0; font-size: 1.3rem; text-transform: uppercase; }
+        .price-tag { color: var(--brand-yellow); font-size: 1.5rem; font-weight: 800; margin: 15px 0; }
+        
+        .cta-button { display: block; width: 100%; background: var(--brand-yellow); color: #000; text-align: center; padding: 15px 0; text-decoration: none; font-weight: bold; border: none; cursor: pointer; transition: 0.2s; }
+        .cta-button:hover { background: #e6b800; }
+        
+        footer { text-align: center; padding: 60px; border-top: 1px solid #222; opacity: 0.7; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="logo">OPPIERIF</h1>
+    <div class="nav-cats">Hoodies • Crew Necks • Accessories</div>
+</header>
+
+<div class="container">
+    
+    <h2 class="section-title">Hoodies</h2>
+    <div class="product-grid">
+        <div class="card">
+            <img src="slback-removebg-preview.png" alt="White Spread Love Hoodie" class="product-img">
+			<img src="slfront-removebg-preview.png" alt="White Spread Love Hoodie" class="product-img">
+            <div class="card-info">
+                <h3>"Spread Love" Hoodie</h3>
+                <p>Premium White - Back Graphic Detail</p>
+                <div class="price-tag">R400</div>
+              
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="black_manner_hoodie_back-removebg-preview.png" alt="Black manner hoodie front" class="product-img">
+			 <img src="black_manner_hoodie-removebg-preview.png" alt="Black manner hoodie front" class="product-img">
+            <div class="card-info">
+                <h3>Meineer Manner Hoodie </h3>
+                <p>Signature Black Hoodie</p>
+                <div class="price-tag">R400</div>
+                
+            </div>
+        </div>
+	</div>
+	 <div class="card">
+            <img src="oppie_hoodie_back-removebg-preview.png" alt="Black manner hoodie front" class="product-img">
+			 <img src="oppie_hoodie_front-removebg-preview.png" alt="Black manner hoodie front" class="product-img">
+            <div class="card-info">
+                <h3>Oppierif Hoodie(Embroidered) </h3>
+                <p>Signature Black Hoodie</p>
+                <div class="price-tag">R400</div>
+            </div>
+        </div>
+
+
+ <div class="card">
+            <img src="white_manner_hoodie_back-removebg-preview.png" alt="White manner hoodie" class="product-img">
+			<img src="white_manner_hoodie_front-removebg-preview.png" alt="White manner hoodie" class="product-img">
+            <div class="card-info">
+                <h3>Meineer Manner Hoodie </h3>
+                <p>Signature white Hoodie</p>
+                <div class="price-tag">R400</div>
+                
+            </div>
+        </div>
+    </div>
+	
+    <h2 class="section-title">Crew Necks(Embroidered)</h2>
+    <div class="product-grid">
+        <div class="card">
+            <img src="greycn-removebg-preview.png" alt="Grey Essential Crew Neck" class="product-img">
+            <div class="card-info">
+                <h3>Essential Crew Neck (Grey)</h3>
+                <p>Classic fit with signature branding</p>
+                <div class="price-tag">R350</div>
+                
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="blackcn-removebg-preview.png" alt="Black Essential Crew Neck" class="product-img">
+            <div class="card-info">
+                <h3>Essential Crew Neck (Black)</h3>
+                <p>Premium finish everyday essential</p>
+                <div class="price-tag">R350</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <h2 class="section-title">Accessories</h2>
+    <div class="product-grid">
+        <div class="card">
+            <img src="cap-removebg-preview.png" alt="Oppierif Cap" class="product-img">
+            <div class="card-info">
+                <h3>Caps</h3>
+                <p>3D Embroidered Cap</p>
+                <div class="price-tag">R100</div>
+               
+            </div>
+        </div>
+		 <div class="card">
+			<img src="bucket-removebg-preview.png" alt="Oppierif Bucket Hat" class="product-img">
+            <div class="card-info">
+                <h3>Bucket Hats</h3>
+                <p>Printed Oppierif Logo Bucket Hat</p>
+                <div class="price-tag">R100</div>
+               
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Oppierif. Wear the Culture.</p>
+</footer>
+
+</body>
+</html>
